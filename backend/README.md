@@ -1,5 +1,8 @@
 # News Platform API
 
+## ONLINE LINK FOR TESTING FUNCTIONALITY VIA SWAGGER
+https://news-api-platform.onrender.com
+
 RESTful API for a Medium-style news platform. Node.js, TypeScript, Express, MongoDB, Zod, JWT, bcrypt, Cloudinary.
 
 ## Setup
