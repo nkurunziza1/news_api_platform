@@ -1,0 +1,8 @@
+# MongoDB: use Atlas. Set MONGODB_URI in .env to your Atlas connection string (mongodb+srv://...).
+services:
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "${PORT:-3000}:3000"
+    restart: unless-stopped
